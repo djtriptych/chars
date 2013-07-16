@@ -1,0 +1,17 @@
+# HTML character references.
+
+Note that the official recommendation is to not use character entities and to
+instead use the unicode directly in the source. This is fine, but sometimes it's
+easier to remember an entitiy reference than to copy/paste or type a unicode
+char.
+
+It's also useful to assign these to variables. I use unicode chars for bullets
+and stuff in my design, so it's nice to swap &bull; for &rarr; easily.
+
+INSTALL:
+
+  install beautifulsoup 4
+
+RUNNING:
+
+  python chars.py will create .less and .json files.
